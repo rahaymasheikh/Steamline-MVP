@@ -1,0 +1,131 @@
+body{
+  background: url(adam-birkett-267843.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
+ }
+
+.form-horizontal {
+	margin-top: 5%;
+}
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+    margin-top: 10%;
+    margin-bottom: -7.5%;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	margin-top: 5%;
+    margin-bottom: -8%;
+
+}
+
+#citation{
+	padding-left: 2%;
+	font-size: 10px;
+	margin-top: 2%
+}
+
+#bs-example-navbar-collapse-1{
+	
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+}
+
+.navbar-brand{
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron{
+	border-radius: 80px;
+}
+
+.form-group{
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+}
+
+
+.jumbotron{
+	background-color: #73737370;
+}
+
+
+html{
+	height: 100%;
+}
+
+.form-control{
+    border:3px solid #8BC3A3;
+    border-radius: 20px;
+
+  }
+.form-control:hover{
+    border:1px solid white;
+  }
+
+button{
+	 font-family: 'Josefin Sans', sans-serif;
+}
+button:hover{
+    border-color:#40DA24 ;
+    
+  }
+
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.one {
+-webkit-animation-delay: 0.4s;
+-moz-animation-delay: 0.4s;
+animation-delay: 0.4s;
+}
+
+/*==== FADE IN DOWN ===*/
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+

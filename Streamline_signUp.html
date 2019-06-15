@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Streamline - Sign Up</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Raleway" rel="stylesheet">
+
+	<!-- BOOTSTRAP CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- JQUERY CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+
+	<!-- JAVASCRIPT CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- FONT AWESOME CDN -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="Streamline_SignUp_style.css">
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-inverse">
+  		<div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	      	<span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Streamline</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="Streamline_landingPage.html">Home</a></li>
+	        <li><a href="Streamline_About.html">About</a></li>
+	        <li><a href="Streamline_Contact.html">Contact</a></li>
+	      </ul>
+	      
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="Streamline_signUp.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>
+	        <li><a href="Streamline_logIn.html"><i class="fa fa-user" aria-hidden="true"></i> Log In</a></li>
+
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+
+	<div class="container">
+		<h4 id="title">Ready To Join Streamline? Create a New Account Today</h4>
+		<div class="row">
+			<div class="modal-content jumbotron">
+    					<!-- <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
+						</div> -->
+
+						<form action="" method="post">
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="firstName">First Name</label>
+											<input type="text" class="form-control" required="" name="firstName" value="">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="lastName">Last Name</label>
+											<input type="password" class="form-control" required="" name="lastName" value="">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="userEmail">Email Address</label>
+									<input type="email" class="form-control" required="" name="userEmail" value="">
+									<span class="help-block">Your email address will also be used to log in.</span>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="password">Password</label>
+											<input type="password" class="form-control" required="" name="password" value="">
+											<span class="help-block">Choose a password for your new account.</span>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="passwordr">Repeat Password</label>
+											<input type="password" class="form-control" required="" name="passwordr" value="">
+											<span class="help-block">Type the password again. Passwords must match.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="modal-footer">
+								<input type="hidden" name="isEmpty" value="">
+								<button type="input" name="submit" value="newAccount" class="btn btn-success btn-icon"><i class="fa fa-check"></i> Create My Account</button>
+							</div>
+						</form>
+				</div>
+		</div>
+	</div>
+
+</body>
+</html>

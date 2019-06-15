@@ -1,0 +1,45 @@
+#bs-example-navbar-collapse-1{
+	
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+}
+
+.navbar-brand{
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+}
+
+#title{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+.modal-content {
+  /*position: relative;*/
+  background-color: #73737370;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+}
+
+.modal-footer {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: right;
+  border-top: 0px;
+ 
+}
+
+
+body{
+	background: url(marble-2371776_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
+  /*background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;*/
+}
+
+
+.container .jumbotron, .container-fluid .jumbotron {
+    
+    border-radius: 100px;
+}
